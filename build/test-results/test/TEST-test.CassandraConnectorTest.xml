@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.CassandraConnectorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-01T16:06:14" hostname="DESKTOP-25SQQGT" time="9.498">
+  <properties/>
+  <testcase name="testConnect" classname="test.CassandraConnectorTest" time="9.498"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/abhi/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.6.1/58e59bfb3e247097b8122243b3bfe0049c8cfae8/slf4j-simple-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/abhi/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-classic-1.1.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+36 [Test worker] INFO com.datastax.driver.core.GuavaCompatibility - Detected Guava >= 19 in the classpath, using modern compatibility layer
+590 [Test worker] INFO com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+591 [Test worker] INFO com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+895 [Test worker] WARN com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+4551 [Test worker] INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+4554 [Test worker] INFO com.datastax.driver.core.Cluster - New Cassandra host /54.191.120.32:9042 added
+6023 [Test worker] INFO com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+8220 [Test worker] INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+8221 [Test worker] INFO com.datastax.driver.core.Cluster - New Cassandra host /54.191.120.32:9042 added
+]]></system-err>
+</testsuite>

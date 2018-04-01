@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.DbSearchDAOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-01T16:06:26" hostname="DESKTOP-25SQQGT" time="4.099">
+  <properties/>
+  <testcase name="testGetResults" classname="test.DbSearchDAOTest" time="4.099"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[9480 [Test worker] INFO com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+11524 [Test worker] INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+11524 [Test worker] INFO com.datastax.driver.core.Cluster - New Cassandra host /54.191.120.32:9042 added
+12494 [Test worker] INFO com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+14738 [Test worker] INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+14738 [Test worker] INFO com.datastax.driver.core.Cluster - New Cassandra host /54.191.120.32:9042 added
+]]></system-err>
+</testsuite>
